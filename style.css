@@ -1,0 +1,135 @@
+body {
+    font-family: 'Allerta';
+}
+
+ul {
+    padding-inline-start: 60px;
+}
+
+li {
+    padding-left: 20px;
+    font-size: 20px;
+    width: 800px;
+    /* line-height: 80px; */
+}
+
+li::marker {
+    font-size: 30px;
+}
+
+* {
+    margin: 0;
+}
+
+#navbarMonstera {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#navFirst img {
+    height: 40px;
+    margin-right: 200px;
+}
+
+#navMid {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+#navEnd {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 200px;
+}
+
+#midWhole {
+    display: flex;
+    flex-direction: row;
+}
+
+#midWholePart1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 160px;
+}
+
+#midWholePart11 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Abel';
+}
+
+#monstera {
+    font-family: 'Allerta';
+    font-weight: 700;
+    font-size: 140px;
+    font-stretch: extra-expanded;
+}
+
+#midWholePart12 {
+    position: relative;
+    right: 230px;
+}
+
+#midWholePart121 {
+    display: flex;
+    flex-direction: row;
+    background-color: #466D4F;
+    color: #fff;
+    width: 260px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+#midWholePart121 div h1 {
+    font-weight: 100;
+    margin-right: 20px;
+
+}
+
+#midWholePart122 img {
+    position: relative;
+    top: 3px;
+    height: 20px;
+}
+
+#midWholePart13 {
+    position: relative;
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.midWholePart13Parts {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    gap: 20px;
+    align-items: center;
+}
+
+.text {
+    font-family: 'Abel';
+    font-size: 12px;
+    width: 140px;
+}
+
+#imgMain {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 700px;
+    z-index: -1;
+}
